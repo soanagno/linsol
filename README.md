@@ -1,11 +1,11 @@
 # LinSol: An experimental linear solver library for C ++
 
-# Group Member
+## Group Member
 * Sokratis Anagnostopoulos
 * Lingaona Zhu
 * Hao Lu
 
-# BLAS Pre-requisites
+## BLAS Pre-requisites
 * ```OpenBLAS```
 * To make sure it compiles, the path of installed OpenBLAS need to be exported first (Below is the example used in macOS)
 ```
@@ -23,7 +23,7 @@ export CPPFLAGS="-I/usr/local/opt/openblas/include"
 * And then run like below:
 ```gcc-9 -lstdc++ -framework Accelerate -flax-vector-conversions main.cpp ```
 
-# Linear Solvers
+## Linear Solvers
 * **Dense Matrix Solver**
 	* Gaussian Elimination
 	* LU Decomposition
@@ -60,16 +60,16 @@ export CPPFLAGS="-I/usr/local/opt/openblas/include"
 	* tolerance: tolerance/criterion to stop the iteration
 	* relaxation factor: for more stable performance
 
-# Additional Notes
+## Additional Notes
 * Rewritten solvers using BLAS subroutines have no detailed comments. Please find it in its dense only version.
 
-# References
+## References
 
 * Davis T.A., Rajamanickam S. and Sid-Lakhdar W.M., “A survey of direct methods for sparse linear systems”, Technical Report, Department of Computer Science and Engineering, Texas A&M Univ, April 2016.
 * Fausett L.V., “Applied numerical analysis using Matlab”, 2nd Editions, Pearson Eduction Inc., 2008.
 Heath M.T., “Scientific computing: An introductory survey”, 2nd International Edition, McGraw-Hill, 2002.
 
-# Contributions
+## Contributions
 * Sokratis Anagnostopoulos:
 	* Implement Gauss Elimination;
 	* Implement Cholesky dense/sparse; 
