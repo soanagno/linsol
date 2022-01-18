@@ -1,4 +1,4 @@
-# LinSol: An experimental linear solver library in C ++
+# LinSol: An experimental linear solver library on C ++
 
 ## Contributors
 * Sokratis Anagnostopoulos
