@@ -5,6 +5,8 @@
 * Lingaona Zhu
 * Hao Lu
 
+![](LU_method_example.png)
+
 ## BLAS Pre-requisites
 * ```OpenBLAS```
 * To make sure it compiles, the path of installed OpenBLAS need to be exported first (Below is the example used in macOS)
