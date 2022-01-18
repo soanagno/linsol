@@ -71,22 +71,22 @@ Heath M.T., “Scientific computing: An introductory survey”, 2nd Internationa
 
 ## Contributions
 * Sokratis Anagnostopoulos:
-	* Implement Gauss Elimination;
-	* Implement Cholesky dense/sparse; 
-	* Implement Gauss-Seidel dense;
-	* Implement Thomas methods; 
+	* Gauss Elimination method;
+	* Cholesky dense/sparse methods; 
+	* Gauss-Seidel dense method;
+	* Thomas method; 
 	* Design container tests and debugging;
-	* Finish the report.
+	* Report writing.
 * Hao Lu: 
-	* Implement LU decomposition for dense and sparse matrices; 
-	* Writing the main function UI and packaging tests in testing.cpp/.h; 
+	* LU decomposition dense/sparse; 
+	* Main function UI and packaging tests in testing.cpp/.h; 
 	* Re-implement three dense solvers with low level BLAS functions and testings;
-	* Implement functions for Matrix and CSRMatrix;
+	* Functions for Matrix and CSRMatrix;
 	* Managing GitHub versions and debugging;
 * Lingaona Zhu:
-	* Implement Gauss-seidel method for sparse matrices; 
-	* Implement Jacobi method for dense and sparse matrices;
-	* Generate random matrices for testing; 
-	* Test solver performance and generate graphs; 
-	* Compare dense and sparse solver performance;
-	* Readproof: codes and report.
+	* Gauss-seidel sparse method; 
+	* Jacobi dense/sparse method;
+	* Random matrix generator for testing;
+	* Solver performance testing and graph plotting; 
+	* Dense vs sparse solver performance testing;
+	* Readproofing: codes and report.
